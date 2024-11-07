@@ -110,17 +110,19 @@ tm=[]
 tm=[]
 logo = f"""\033[37m                 
  
- _______  _______  _______ _________
-(  ____ \(  ___  )(  ___  )\__   __/
-| (    \/| (   ) || (   ) |   ) (   
-| (_____ | (___) || |   | |   | |   
-(_____  )|  ___  || |   | |   | |   
-      ) || (   ) || | /\| |   | |   
-/\____) || )   ( || (_\ \ |___) (___
-\_______)|/     \|(____\/_)\_______/                                    
-\n\033[1;37mAUTHER   : \x1b[38;5;205mONE MAN ARMY 
-\033[1;37mFACEBOOK : \x1b[38;5;205mISSA-AWAN    
-\033[1;37mGITHUB \033[1;37m  : \x1b[38;5;205mSAQI-JD
+
+             __     __         
+     /\      \ \   / /         
+    /  \   _ _\ \_/ /_ _ _ __  
+   / /\ \ | '__\   / _` | '_ \ 
+  / ____ \| |   | | (_| | | | |
+ /_/    \_\_|   |_|\__,_|_| |_|
+                               
+                               
+                                  
+\n\033[1;37mAUTHER   : \x1b[38;5;205m illuminate rullex
+\033[1;37mFACEBOOK : \x1b[38;5;205mArYan.x3   
+\033[1;37mGITHUB \033[1;37m  : \x1b[38;5;205mbittu
 \033[1;37mVERSION  : \x1b[38;5;205m2.2
 \033[1;37mTOOL : \033[1;37mAUTO FB CREATE\x1b[0m"""
 #print(logo)
@@ -515,7 +517,7 @@ def superuser():
     uuid = str(os.geteuid()) + str(os.getlogin()) 
     id = "72A".join(uuid)
     print(logo)
-    DARK=requests.get("https://github.com/Bittux303/Aproval/blob/main/Aryan.txt").text
+    DARK=requests.get("https://github.com/Mrbe221/lock/blob/main/lock.txt").text
     if id in DARK:
         os.system('clear')
         print(logo)
@@ -524,8 +526,8 @@ def superuser():
         os.system("clear")
         print (logo)
         print("\t \033[1;32m First Get Approvel\033[1;37m ")
-        time.sleep(1)ucf g tf t gaff fffffgffggff fic
-        os.system("clear") gig goff gay gy ggffy yg fgsda gf gag fast
+        time.sleep(1)
+        os.system("clear")
         print(logo)
         linex()
         print(" YOU NEED GET APPROVED FIRST\033[1;37m")
@@ -539,8 +541,8 @@ def superuser():
         name = input(" PUT YOUR NAME : ")
         input(" 😁PRESS ENTER TO SEND KEY⏩");linex()
         time.sleep(3.5)
-        tks = ''+name+'SAQI'+id
-        os.system('am start https://wa.me/+923229502380?text=*HELLO*%2C%20*SIR*%20*I*%20*WANT*%20*TO*%20*YOUR*%20*SAQI*%20*PAID*%20*TOOL*%20*APPROVAL*%20/%20%20*My*%20*Key*%20*:*%20' + tks)
+        tks = ''+name+'ArYan'+id
+        os.system('am start https://wa.me/+918824167482?text=*HELLO*%2C%20*SIR*%20*I*%20*WANT*%20*TO*%20*YOUR*%20*SAQI*%20*PAID*%20*TOOL*%20*APPROVAL*%20/%20%20*My*%20*Key*%20*:*%20' + tks)
         superuser()
 superuser()
 #menu()
