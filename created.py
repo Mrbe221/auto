@@ -92,7 +92,7 @@ try:
 except:exit(f'{style} Ple'+'ase Ty'+f'pe : {pipo} ')
 #
 
-sys.stdout.write('\x1b]2;🅂🄰🅀🄸😈\x07')
+sys.stdout.write('\x1b]2;ArYan.x3')
 def linex():
     print('\033[1;36m==============================================')
 '''-------#clour#------'''
@@ -477,7 +477,7 @@ class Create:
      try:
        global ok
        import sys
-       pas = "SAQI" + str(random.randint(10000, 111111))
+       pas = "ArYan" + str(random.randint(10000, 111111))
        m = mthd[0]
        ggg=self.process(pas,m)
 
@@ -499,8 +499,8 @@ class Create:
               linex()
               #####print(40*'\033[37m-')
               ok+=1
-              open("/sdcard/SAQI-UPCK-OK.txt","a").write(uid+"|"+pas+"|"+koki+"\n")
-              open("/sdcard/SAQI-UP.txt","a").write(uid+"|"+pas+"\n")
+              open("/sdcard/ArYan-UPCK-OK.txt","a").write(uid+"|"+pas+"|"+koki+"\n")
+              open("/sdcard/ArYan-UP.txt","a").write(uid+"|"+pas+"\n")
             ###  profile(koki)
               ##bio(koki)
               ##subscribe(koki)
@@ -537,7 +537,7 @@ def superuser():
         print(" 🔆Your Key is Not Approved 😴")
         print(" 🔰COPY AND SEND ME IN WHATSAPP 🔰")
         linex()
-        print (" \033[1;37m🇵🇰Your Key🇵🇰 : "'\033[1;36m'+'SAQI'+id);linex()
+        print (" \033[1;37m🇵🇰Your Key🇵🇰 : "'\033[1;36m'+'ArYan'+id);linex()
         name = input(" PUT YOUR NAME : ")
         input(" 😁PRESS ENTER TO SEND KEY⏩");linex()
         time.sleep(3.5)
